@@ -1,0 +1,1 @@
+export { ManufacturerDetailsContainer } from './ManufacturerDetailsContainer';

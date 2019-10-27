@@ -1,0 +1,60 @@
+.App {
+  display: block;
+  text-align: center;
+  margin:0 auto;
+  width: 100%;
+  max-width: 1200px;
+  align-self: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 5px 0 5px 0;
+}
+.row:nth-child(even) {
+  background-color: #f8f6ff;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.table-header {
+  font-family: Lato-Bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #6c7ae0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table-container {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+}
+
+.hasError {
+  border: 1px solid red;
+}
+
+.form-container {
+  height: 150px;
+}
+form {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.field {
+  width: 50%;
+  height: 100px;
+  align-self: center;
+}
