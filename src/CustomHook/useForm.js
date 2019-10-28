@@ -23,6 +23,7 @@ const useForm = (callback, validate) => {
 
   const handleChange = (event) => {
     event.persist();
+    setIsSubmitting(false);
     setValues(values => ({ ...values, [event.target.name]: event.target.value }));
   };
 
